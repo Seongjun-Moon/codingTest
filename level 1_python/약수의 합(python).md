@@ -30,5 +30,8 @@ def solution(n):
         if n%i<1 :
             answer += i 
     return answer
+
+# 한줄 풀이
+return sum([i for i in range(1, n+1) if not n%i])
 ```
 
