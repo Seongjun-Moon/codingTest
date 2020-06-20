@@ -38,5 +38,8 @@ def solution(a, b):
     else :
         answer = (b-a+1)*(a+b)/2
     return answer
+
+# 쉬운 풀이
+return sum(range(min(a,b), max(a,b)+1))
 ```
 
